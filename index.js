@@ -22,7 +22,8 @@ parentProcess.send({
 app.post('/', (req, res) => {
 	console.log(req)
 });
-app.get('/', (req, res) => {
+app.get('/event', (req, res) => {
+	console.log(req)
 	parentProcess.send({
 		data: new Date(),
 		newCounter: false,
