@@ -7,9 +7,6 @@ let SENDER_NAME = process.env.SENDER_NAME
 let RECEIVER_EMAIL = process.env.RECEIVER_EMAIL
 let RECEIVER_NAME = process.env.RECEIVER_NAME
 
-//const client = require('twilio')(accountSid, authToken);
-//const mainAccountCalls = client.api.v2010.account.calls.list; // SID not specified, so defaults to accountSid
-
 let global = {};
 let wasSent = false;
 
@@ -44,9 +41,9 @@ process.on('message', (msg) => {
 						  "Name": RECEIVER_NAME,
 						}
 					      ],
-					      "Subject":"Your email flight plan!",
-					      "Text-part":"Dear passenger, welcome to Mailjet! May the delivery force be with you!",
-					      "Html-part":"<h3>Dear passenger, welcome to Mailjet!</h3><br />May the delivery force be with you!",
+					      "Subject":"CBW 2 delay",
+					      "Text-part":"Hi, just letting you know CBW2 has been delayed",
+					      "Html-part":"<h3>WARNING!! EVEN SHORT DELAYS TO PRODUCTION CAN GREATLY DECREASE PRODUCTIVITY</h3><br />Please address this as soon as possible",
 					};
 					console.log(body)
 				//	const response = await fetch('https://api.mailjet.com/v3/send', {
@@ -62,8 +59,7 @@ process.on('message', (msg) => {
 					wasSent = true;
 				}
 			}
-		})()
-
+		})() 
 	} else {
 		let key = msg['key'];
 		let date_as_string = msg['data'];
