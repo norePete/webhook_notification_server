@@ -28,7 +28,7 @@ process.on('message', (msg) => {
 				let difference = currentTime - global[key];
 				console.log('difference = ', difference);
 				if (difference > 4000 && !wasSent) {
-					console.log("alert created!!! \ntransfer time has been delayed\n")
+					console.log("alert created!! \nERROR: transfer time has been delayed\n")
 					let user = `${API_PUBLIC}:${API_PRIVATE}`;
 					let user_as_buff = new Buffer.from(user);
 					let credentials = user_as_buff.toString('base64');
