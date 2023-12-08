@@ -42,7 +42,7 @@ process.on('message', (msg) => {
 						}
 					      ],
 					      "Subject":"CBW 2 delay",
-					      "Text-part":"Hi, just letting you know CBW2 has been delayed",
+					      "Text-part":"Hi, just letting you know CBW3 has been delayed",
 					      "Html-part":"<h3>WARNING!! EVEN SHORT DELAYS TO PRODUCTION CAN GREATLY DECREASE PRODUCTIVITY</h3><br />Please address this as soon as possible",
 					};
 					console.log(body)
