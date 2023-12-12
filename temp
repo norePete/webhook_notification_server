@@ -1,0 +1,95 @@
+$ sudo nmap -sn 192.168.0.0/24 | grep -E 'Nmap|MAC'
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-12-12 14:34 NZDT
+Nmap scan report for 192.168.0.1
+MAC Address: 34:17:EB:97:B8:09 (Dell)
+Nmap scan report for 192.168.0.2
+MAC Address: CC:48:3A:2A:19:49 (Unknown)
+Nmap scan report for 192.168.0.3
+MAC Address: 00:1D:9C:A5:AE:EB (Rockwell Automation)
+Nmap scan report for 192.168.0.4
+MAC Address: 00:1D:9C:A5:30:CA (Rockwell Automation)
+Nmap scan report for 192.168.0.10
+MAC Address: 44:8E:12:02:14:86 (DT Research)
+
+Nmap scan report for 192.168.0.11
+MAC Address: 74:FE:48:6C:21:20 (Advantech)
+
+Nmap scan report for 192.168.0.14
+MAC Address: 58:1C:F8:EE:43:D2 (Unknown)
+Nmap scan report for 192.168.0.15
+MAC Address: 44:8E:12:00:80:03 (DT Research)
+Nmap scan report for 192.168.0.19
+MAC Address: 44:8E:12:00:35:B5 (DT Research)
+Nmap scan report for 192.168.0.22
+MAC Address: 44:8E:12:00:35:B6 (DT Research)
+Nmap scan report for 192.168.0.30
+MAC Address: C0:84:7D:A7:C6:BA (Ampak Technology)
+Nmap scan report for 192.168.0.31
+MAC Address: CC:4B:73:B5:22:7A (Ampak Technology)
+Nmap scan report for 192.168.0.32
+MAC Address: CC:4B:73:B5:02:68 (Ampak Technology)
+Nmap scan report for 192.168.0.33
+MAC Address: C0:84:7D:A7:2B:94 (Ampak Technology)
+Nmap scan report for 192.168.0.34
+MAC Address: C0:84:7D:A6:E8:16 (Ampak Technology)
+Nmap scan report for 192.168.0.37
+MAC Address: CC:4B:73:04:4B:F9 (Ampak Technology)
+Nmap scan report for 192.168.0.140
+MAC Address: B8:BC:5B:ED:5C:EE (Samsung Electronics)
+Nmap scan report for 192.168.0.141
+MAC Address: B8:BC:5B:ED:5C:14 (Samsung Electronics)
+Nmap scan report for 192.168.0.142
+MAC Address: C0:84:7D:4E:50:F7 (Ampak Technology)
+Nmap scan report for 192.168.0.143
+MAC Address: B8:BC:5B:ED:5B:E7 (Samsung Electronics)
+Nmap scan report for 192.168.0.145
+MAC Address: 68:72:C3:7B:C4:8C (Unknown)
+Nmap scan report for 192.168.0.146
+MAC Address: 64:E7:D8:D9:18:6C (Unknown)
+Nmap scan report for 192.168.0.175
+MAC Address: 74:FE:48:47:AA:48 (Advantech)
+Nmap scan report for 192.168.0.176
+MAC Address: 74:FE:48:47:A9:EC (Advantech)
+Nmap scan report for 192.168.0.177
+MAC Address: 74:FE:48:47:AA:17 (Advantech)
+Nmap scan report for 192.168.0.178
+MAC Address: 74:FE:48:47:A9:FF (Advantech)
+Nmap scan report for 192.168.0.179
+MAC Address: 74:FE:48:47:AA:47 (Advantech)
+Nmap scan report for 192.168.0.180
+MAC Address: 74:FE:48:49:99:8B (Advantech)
+Nmap scan report for 192.168.0.181
+MAC Address: 74:FE:48:5C:5D:72 (Advantech)
+Nmap scan report for 192.168.0.182
+MAC Address: 74:FE:48:5C:5D:40 (Advantech)
+Nmap scan report for 192.168.0.184
+MAC Address: 74:FE:48:5C:5C:91 (Advantech)
+Nmap scan report for 192.168.0.185
+MAC Address: 74:FE:48:49:99:86 (Advantech)
+Nmap scan report for 192.168.0.188
+MAC Address: 74:FE:48:70:CA:66 (Advantech)
+Nmap scan report for 192.168.0.189
+MAC Address: 74:FE:48:70:C9:6C (Advantech)
+Nmap scan report for 192.168.0.190
+MAC Address: 74:FE:48:70:CC:3D (Advantech)
+Nmap scan report for 192.168.0.195
+MAC Address: 74:FE:48:6C:22:37 (Advantech)
+Nmap scan report for 192.168.0.220
+MAC Address: B8:3A:5A:C1:10:F4 (Unknown)
+Nmap scan report for 192.168.0.221
+MAC Address: F4:2E:7F:C2:44:94 (Aruba, a Hewlett Packard Enterprise Company)
+Nmap scan report for 192.168.0.222
+MAC Address: F4:2E:7F:C0:8F:F4 (Aruba, a Hewlett Packard Enterprise Company)
+Nmap scan report for 192.168.0.223
+MAC Address: F4:2E:7F:C0:64:3C (Aruba, a Hewlett Packard Enterprise Company)
+Nmap scan report for 192.168.0.224
+MAC Address: B8:3A:5A:C1:10:F4 (Unknown)
+Nmap scan report for 192.168.0.226
+MAC Address: 48:2F:6B:C9:49:12 (Unknown)
+Nmap scan report for 192.168.0.230
+MAC Address: F4:54:33:26:5D:C0 (Rockwell Automation)
+Nmap scan report for 192.168.0.232
+MAC Address: F4:54:33:26:41:40 (Rockwell Automation)
+Nmap scan report for 192.168.0.233
+MAC Address: F4:54:33:26:5E:40 (Rockwell Automation)
+Nmap scan report for 192.168.0.13

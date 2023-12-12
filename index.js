@@ -8,6 +8,7 @@ const port = 3000;
 const conf = Object.freeze({port: 7003});
 let lastTransfer = [];
 let i = []
+let k = []
 
 const parentProcess = fork('child.js');
 parentProcess.on('message', (msg) => {
